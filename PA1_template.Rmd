@@ -22,7 +22,7 @@ library(xtable)
 **1.1 Download "activity data"" zip file to working directory** 
 
 Note: Script only downloads the zip file it it does not already exist in the
-current workding directory.
+current workding directory. 
 
 ```{r download, echo=TRUE}
 if(!file.exists("repdata-data-activity.zip")) {
